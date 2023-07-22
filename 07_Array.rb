@@ -7,6 +7,7 @@ print friends2
 print friends2[0...1]
 friends3 = Array (1..100)
 print friends3
+print friends2.find_index("Miguel")
 =begin
     array[n] --> coge ese index
     array[-n] --> coge el index pero desde atrás --> -1 será la última posición
