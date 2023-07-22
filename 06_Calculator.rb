@@ -2,7 +2,7 @@ class Calculadora #https://www.rubyguides.com/2018/11/attr_accessor/
     attr_accessor :num1, :num2, :operador
 
     def initialize(num1, num2, op)
-        @num1 = num1.to_i
+        @num1 = num1.to_i # esto es porque gets lo coge todo como string siempre
         @num2 = num2.to_i
         @operator = op
 
