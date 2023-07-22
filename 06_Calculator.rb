@@ -53,10 +53,11 @@ puts "Input a number"
 num1 = gets.chomp
 
 puts "Input another number"
-num2 = gets.chomp
+num2 = gets.chomp.to_i # también podemos convertirlo aquí directamente
 
 puts "Select an operation (\'+,-,*,/,^\')"
 op = gets.chomp
 
 numero = Calculadora.new(num1,num2,op)
 
+#I've just seend that further down the line he does something similar to what I've done to control all the operations and I'm proud of myself
