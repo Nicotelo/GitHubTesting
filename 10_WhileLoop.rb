@@ -32,3 +32,18 @@ until index == 11 do
     index += 1
 end
 #https://www.geeksforgeeks.org/ruby-loops-for-while-do-while-until/#
+
+
+
+puts "-------- For for arrays ---------"
+
+friends = ["Tom", "Kevin", "Kenneth", "Oscar"]
+for friend in friends
+    puts friend
+end
+
+friends.each do |friend| 
+    puts friend
+end
+
+friends.each {|friend| puts friend}
