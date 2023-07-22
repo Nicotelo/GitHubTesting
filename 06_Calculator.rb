@@ -6,7 +6,7 @@ class Calculadora #https://www.rubyguides.com/2018/11/attr_accessor/
         @num2 = num2.to_i
         @operator = op
 
-        operacion()
+        operacion() # calling to the method operacion
     end
 
     def sum
